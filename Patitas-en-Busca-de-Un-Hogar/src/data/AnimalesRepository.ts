@@ -1,5 +1,5 @@
 import { readFile, writeFile } from "fs/promises";
-import { Animal } from "../models/Animal";
+import { Animal } from "../models/animal";
 
 export class AnimalesRepository {
 
