@@ -6,4 +6,4 @@ export interface Raza {
 
     id_especie: number;
 
-}s
+}
