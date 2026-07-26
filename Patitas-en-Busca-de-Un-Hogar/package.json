@@ -1,0 +1,18 @@
+{
+  "name": "Patitas-en-Busca-de-Un-Hogar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.22.4",
+    "typescript": "^7.0.2"
+  }
+}
