@@ -1,4 +1,4 @@
-import { Animal } from "../models/Animal";
+import { Animal } from "../models/animal";
 import { AnimalesRepository } from "../data/AnimalesRepository";
 
 export class AnimalService {
