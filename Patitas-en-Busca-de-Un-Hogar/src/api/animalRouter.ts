@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from "http";
 import { AnimalService } from "../service/animalService";
-import { Animal } from "../models/Animal";
+import { Animal } from "../models/animal";
 
 const service = new AnimalService();
 
