@@ -1,0 +1,14 @@
+[
+    [
+        {
+            "id_animal": 2,
+            "nombreAnimal": "Alex",
+            "edadAnimal": 2,
+            "sexoAnimal": "Macho",
+            "estadoAnimal": "Disponible",
+            "id_refugio": 2,
+            "id_especie": 2,
+            "id_raza": 2
+        }
+    ]
+]
