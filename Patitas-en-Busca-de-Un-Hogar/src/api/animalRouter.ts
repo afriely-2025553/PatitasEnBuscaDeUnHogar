@@ -42,7 +42,7 @@ function enviarJson(res: ServerResponse, status: number, data: unknown) {
 
 }
 
-export async function routes(req: IncomingMessage, res: ServerResponse) {
+export async function animalRoutes(req: IncomingMessage, res: ServerResponse) {
 
     const url = new URL(req.url ?? "/", "http://localhost:3000");
     const partes = url.pathname.split("/").filter(Boolean);
