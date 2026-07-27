@@ -1,5 +1,5 @@
 import { createServer } from "http";
-import { routes } from "./animalRouter";
+import { routes } from "./router";
 
 const servidor = createServer(async (req, res) => {
 
