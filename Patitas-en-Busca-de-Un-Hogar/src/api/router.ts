@@ -4,6 +4,7 @@ import { especieRoutes } from "./especieRouter"
 import { razaRoutes } from "./razaRouter";
 import { refugioRoutes } from "./refugioRouter";
 import { veterinarioRoutes } from "./veterinarioRouter";
+import { adoptanteRoutes } from "./adoptanteRouter";
 
 export async function routes(
     req: IncomingMessage,
@@ -39,6 +40,12 @@ export async function routes(
     if (url.pathname.startsWith("/veterinarios")) {
 
     return veterinarioRoutes(req, res);
+
+    }
+
+    if (url.pathname.startsWith("/adoptantes")) {
+
+    return adoptanteRoutes(req, res);
 
     }
 
