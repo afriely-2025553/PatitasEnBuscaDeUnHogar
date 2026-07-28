@@ -1,0 +1,9 @@
+[
+    {
+        "id_donacion": 1,
+        "tipoDonacion": "Monetaria",
+        "montoDonacion": 500,
+        "fechaDonacion": "2026-07-28",
+        "id_refugio": 1
+    }
+]
