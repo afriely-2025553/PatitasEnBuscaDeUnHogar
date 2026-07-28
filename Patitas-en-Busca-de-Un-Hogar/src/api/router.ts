@@ -3,6 +3,7 @@ import { animalRoutes } from "./animalRouter";
 import { especieRoutes } from "./especieRouter"
 import { razaRoutes } from "./razaRouter";
 import { refugioRoutes } from "./refugioRouter";
+import { veterinarioRoutes } from "./veterinarioRouter";
 
 export async function routes(
     req: IncomingMessage,
@@ -33,6 +34,12 @@ export async function routes(
 
     return refugioRoutes(req, res);
     
+    }
+
+    if (url.pathname.startsWith("/veterinarios")) {
+
+    return veterinarioRoutes(req, res);
+
     }
 
     res.writeHead(404, {
