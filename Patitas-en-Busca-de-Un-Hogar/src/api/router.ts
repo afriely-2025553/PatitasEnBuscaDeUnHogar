@@ -2,6 +2,7 @@ import { IncomingMessage, ServerResponse } from "http";
 import { animalRoutes } from "./animalRouter";
 import { especieRoutes } from "./especieRouter"
 import { razaRoutes } from "./razaRouter";
+import { refugioRoutes } from "./refugioRouter";
 
 export async function routes(
     req: IncomingMessage,
@@ -26,6 +27,12 @@ export async function routes(
 
     return razaRoutes(req, res);
 
+    }
+
+    if (url.pathname.startsWith("/refugios")) {
+
+    return refugioRoutes(req, res);
+    
     }
 
     res.writeHead(404, {
