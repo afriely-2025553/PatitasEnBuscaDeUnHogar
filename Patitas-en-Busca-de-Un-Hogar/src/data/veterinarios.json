@@ -1,0 +1,12 @@
+[
+    {
+        "id_veterinario": 1,
+        "nombreVeterinario": "Dr. Carlos Méndez",
+        "telefonoVeterinario": 55223344
+    },
+    {
+        "id_veterinario": 3,
+        "nombreVeterinario": "Dra. Alejandra Martinez",
+        "telefonoVeterinario": 85692256
+    }
+]
