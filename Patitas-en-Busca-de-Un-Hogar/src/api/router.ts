@@ -5,6 +5,10 @@ import { razaRoutes } from "./razaRouter";
 import { refugioRoutes } from "./refugioRouter";
 import { veterinarioRoutes } from "./veterinarioRouter";
 import { adoptanteRoutes } from "./adoptanteRouter";
+import { donacionRoutes } from "./donacionRouter";
+import { voluntarioRoutes } from "./voluntarioRouter";
+import { vacunaRoutes } from "./vacunaRouter";
+import { adopcionRoutes } from "./adopcionRouter";
 
 export async function routes(
     req: IncomingMessage,
@@ -46,6 +50,30 @@ export async function routes(
     if (url.pathname.startsWith("/adoptantes")) {
 
     return adoptanteRoutes(req, res);
+
+    }
+
+    if (url.pathname.startsWith("/donaciones")) {
+
+    return donacionRoutes(req, res);
+
+    }
+
+    if (url.pathname.startsWith("/voluntarios")) {
+
+    return voluntarioRoutes(req, res);
+
+    }
+
+    if (url.pathname.startsWith("/vacunas")) {
+
+    return vacunaRoutes(req, res);
+
+    }
+
+    if (url.pathname.startsWith("/adopciones")) {
+
+    return adopcionRoutes(req, res);
 
     }
 
