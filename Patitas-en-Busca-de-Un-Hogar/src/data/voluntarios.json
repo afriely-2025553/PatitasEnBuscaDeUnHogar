@@ -1,0 +1,8 @@
+[
+    {
+        "id_voluntario": 1,
+        "nombreVoluntario": "Carlos López",
+        "telefonoVoluntario": "55112233",
+        "id_refugio": 1
+    }
+]
