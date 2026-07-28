@@ -58,7 +58,7 @@ create table Voluntarios(
     telefonoVoluntario varchar(10),
     id_refugio int,
     primary key id_voluntario(id_voluntario),
-    constraint Fk_id_refugio foreign key (id_refugio)
+    constraint Fkk_id_refugio foreign key (id_refugio)
     references Refugios(id_refugio) on delete cascade
 );
 
